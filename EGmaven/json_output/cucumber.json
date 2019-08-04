@@ -1,0 +1,85 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 38951536620,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens browser",
+            "match": {
+              "location": "EGHomePageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 63,
+        "name": "Test Login Feature",
+        "description": "",
+        "id": "test-egranary-applicaiton-test;test-login-feature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17873639626,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User Proceed to Login",
+            "match": {
+              "location": "LoginSteps.user_Proceed_to_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 202847234,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Validate Login Page",
+            "match": {
+              "location": "LoginSteps.validate_Login_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1112170288,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "close the browser",
+            "match": {
+              "location": "EGHomePageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 62,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Test EGranary applicaiton test",
+    "description": "",
+    "id": "test-egranary-applicaiton-test",
+    "keyword": "Feature",
+    "uri": "D:/Sheetal/eGranary work/egranary java project/Egranary/EGmaven/src/main/java/com/eg/qa/features/EGranary.feature"
+  }
+]
